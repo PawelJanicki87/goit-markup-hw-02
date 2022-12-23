@@ -1,0 +1,24 @@
+.blue-font {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
