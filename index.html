@@ -75,24 +75,59 @@
 
         color: #757575;
       }
+
+      .social-links a {
+        text-decoration: none;
+        color: #212121;
+      }
+
+      .social-links .link:hover,
+      .social-links .link:focus {
+        color: #2196f3;
+      }
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+      .blue-font {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+
+        letter-spacing: 0.03em;
+
+        color: #000000;
+      }
+      .social-links .contact {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+
+        color: #757575;
+      }
     </style>
   </head>
   <body>
     <header>
       <nav>
-        <ul class="link">
+        <ul class="social-links">
           <li>
-            <a href="/WebStudio">WebStudio<a>Web<span class="blue-font">Studio</span></a>
+            <a class="link" href="/WebStudio">Web<span class="blue-font">Studio</span></a>
           </li>
-          <li><a href="/Agencja">Agencja</a></li>
-          <li><a href="/Portfolio">Portfolio</a></li>
-          <a href="./portfolio.html">Portfolio</a>
-          <li><a href="/kontakt">Kontakt</a></li>
+          <li><a class="link logo" href="/Agencja">Agencja</a></li>
+          <li><a class="link" href="/Portfolio">Portfolio</a></li>
+          <a class="link" href="./portfolio.html">Portfolio</a>
+          <li><a class="link" href="/kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="contact">
-        <li><a href="/mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="/tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="social-links contact">
+        <li><a class="link" href="/mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="/tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
     <main>

@@ -49,6 +49,24 @@
 
         color: #757575;
       }
+      .social-links .contact {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+
+        color: #757575;
+      }
+      .social-links {
+        text-decoration: none;
+        color: #212121;
+      }
+      .social-links .link:hover,
+      .social-links .link:focus {
+        color: #2196f3;
+      }
     </style>
   </head>
   <body>
@@ -61,9 +79,9 @@
           <li><a href="/kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="/mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="/tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="social-links contact">
+        <li><a class="link" href="/mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="/tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
     <main>
@@ -92,8 +110,7 @@
           </figcaption>
         </figure>
         <figure>
-          <img src="./images/imgp3.jpg" alt="logo firmy" width: 370px; height: 294px position:
-          absolute; left: 1015px; top: 262px; />
+          <img src="./images/imgp3.jpg" alt="logo firmy" width: 370px; height: 294px />
           <figcaption>
             <h1 class="name"><strong>Restauracja Seafood</strong></h1>
             <p>Aplikacja</p>
