@@ -149,4 +149,75 @@
 
   text-decoration: none;
 }
-<! portfolio>
+<! portfolio > body {
+  font-family: "Roboto", sans-serif, weight=700, sieze=18px, color #212121;
+}
+button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #2196f3;
+}
+.button-1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #212121;
+
+  background: #f5f4fa;
+}
+.button-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #212121;
+
+  background: #f5f4fa;
+}
+.button-3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background: #f5f4fa;
+}
+.button-4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #212121;
+
+  background: #f5f4fa;
+}
+.button-5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #212121;
+
+  background: #f5f4fa;
+}
+
+.photo .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #757575;
+}
