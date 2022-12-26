@@ -11,8 +11,10 @@
     <style>
     <! index>
     body {
-  font-family: "Roboto", sans-serif, weight=700, sieze=18px, color #212121;
+  font-family: "Roboto", sans-serif,
+  color: #212121;
 }
+
 
 .social-links .link:hover,
 .social-links .link:focus {
@@ -53,8 +55,7 @@
 }
 
 .social-link .contact {
-  font-family: "Roboto";
-  font-style: normal;
+ 
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -62,10 +63,9 @@
 }
 
 .index-button {
-  cursor: pointer;
 
-  font-family: "Roboto";
-  font-style: normal;
+  
+
   font-weight: 700;
   font-size: 16px;
 
@@ -75,147 +75,85 @@
 }
 
 #title {
-  font-family: "Roboto";
-  font-style: normal;
+  
+  
   font-weight: 900;
   font-size: 44px;
 }
 .index-title {
-  font-family: "Roboto";
-  font-style: normal;
+  
+
   font-weight: 700;
   font-size: 14px;
 
   color: #212121;
 }
 .post {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+  
   font-size: 14px;
 
   color: #757575;
 }
 
 .work {
-  font-family: "Roboto";
-  font-style: normal;
+  
+
   font-weight: 700;
   font-size: 36px;
   color: #212121;
 }
 .team {
-  font-family: "Roboto";
-  font-style: normal;
+  
+
   font-weight: 700;
   font-size: 36px;
   color: #212121;
 }
 .name {
-  font-family: "Roboto";
-  font-style: normal;
+  
+
   font-weight: 500;
   font-size: 16px;
   color: #212121;
 }
 .profesion {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
   color: #757575;
 }
 .adress {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
 }
 
 .rest .mail {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+  
   font-size: 14px;
 
   text-decoration: none;
 }
 .rest .tel {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
 
   text-decoration: none;
 }
 <! portfolio > body {
-  font-family: "Roboto", sans-serif, weight=700, sieze=18px, color #212121;
+  font-family: "Roboto", sans-serif,  color #212121;
 }
-button:hover {
-  cursor: pointer;
+.portfolio-button:hover {
   color: #ffffff;
+
   background: #2196f3;
-}
-.button-1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-
-  color: #212121;
-
-  background: #f5f4fa;
-}
-.button-2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-
-  color: #212121;
-
-  background: #f5f4fa;
-}
-.button-3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #212121;
-  background: #f5f4fa;
-}
-.button-4 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-
-  color: #212121;
-
-  background: #f5f4fa;
-}
-.button-5 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-
-  color: #212121;
-
-  background: #f5f4fa;
 }
 
 .photo .title {
-  font-family: "Roboto";
-  font-style: normal;
+ 
   font-weight: 700;
   font-size: 18px;
   color: #212121;
 }
 .subtitle {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+  
   font-size: 16px;
 
   color: #757575;
