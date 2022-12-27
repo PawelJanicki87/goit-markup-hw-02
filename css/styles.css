@@ -61,18 +61,20 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+ 
 
-.index-button {
 
-  
+ 
+.index-button:hover{
+cursor: pointer;
+font-weight: 700;
+font-size: 16px;
+color: #ffffff;
+background-color: #2196F3}
 
-  font-weight: 700;
-  font-size: 16px;
 
-  color: #ffffff;
 
-  background: #2196f3;
-}
+
 
 #title {
   
@@ -141,9 +143,10 @@
   font-family: "Roboto", sans-serif,  color #212121;
 }
 .portfolio-button:hover {
+ cursor:pointer;
   color: #ffffff;
-
-  background: #2196f3;
+background-color: #2196F3;
+  
 }
 
 .photo .title {
