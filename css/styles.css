@@ -118,8 +118,13 @@ body {
   background-color: #2196f3;
 }
 
-.photo .title {
+.title {
   font-weight: 700;
   font-size: 18px;
-  color: #212121;
+}
+.subtitle {
+  font-weight: 400;
+
+  font-size: 16px;
+  color: #757575;
 }
