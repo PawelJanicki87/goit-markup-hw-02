@@ -52,6 +52,7 @@ body {
 .header-main {
   font-weight: 900;
   font-size: 44px;
+  text-align: center;
 }
 
 .index-button:hover {
@@ -60,11 +61,6 @@ body {
   font-size: 16px;
   color: #ffffff;
   background-color: #2196f3;
-}
-
-.header-main {
-  font-weight: 900;
-  font-size: 44px;
 }
 
 .third-header {
