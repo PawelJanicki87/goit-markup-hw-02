@@ -1,163 +1,125 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <style>
-    <! index>
-    body {
-  font-family: "Roboto", sans-serif,
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+/*--header--*/
+.link {
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
   color: #212121;
 }
 
-
-.social-links .link:hover,
-.social-links .link:focus {
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
-
-.social-links .link {
-  text-decoration: none;
-  color: #212121;
-}
-.link-logo {
-  color: blue;
-  text-decoration: none;
-}
-
-.blue-font {
+.logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-
   letter-spacing: 0.03em;
+  text-decoration: none;
+  cursor: pointer;
+}
 
+.logo-font-accent {
+  color: #2196f3;
+}
+.logo-font-second {
   color: #000000;
 }
-.dark-font {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
 
-  /* identical to box height */
-  letter-spacing: 0.03em;
+.link-mail,
+.link-tel {
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #757575;
+}
 
+.link-mail:hover,
+.link-tel:hover,
+.link-mail:focus,
+.link-tel:focus {
   color: #2196f3;
 }
 
-.social-link .contact {
- 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
- 
+/*--main--*/
 
-
- 
-.index-button:hover{
-cursor: pointer;
-font-weight: 700;
-font-size: 16px;
-color: #ffffff;
-background-color: #2196F3}
-
-
-
-
-
-#title {
-  
-  
+.header-main {
   font-weight: 900;
   font-size: 44px;
 }
-.index-title {
-  
 
+.index-button:hover {
+  cursor: pointer;
   font-weight: 700;
-  font-size: 14px;
-
-  color: #212121;
-}
-.post {
-  
-  font-size: 14px;
-
-  color: #757575;
-}
-
-.work {
-  
-
-  font-weight: 700;
-  font-size: 36px;
-  color: #212121;
-}
-.team {
-  
-
-  font-weight: 700;
-  font-size: 36px;
-  color: #212121;
-}
-.name {
-  
-
-  font-weight: 500;
   font-size: 16px;
-  color: #212121;
-}
-.profesion {
-
-  font-size: 16px;
-  color: #757575;
-}
-.adress {
-
-  font-size: 14px;
-}
-
-.rest .mail {
-  
-  font-size: 14px;
-
-  text-decoration: none;
-}
-.rest .tel {
-  font-size: 14px;
-
-  text-decoration: none;
-}
-<! portfolio > body {
-  font-family: "Roboto", sans-serif,  color #212121;
-}
-.portfolio-button:hover {
- cursor:pointer;
   color: #ffffff;
-background-color: #2196F3;
-  
+  background-color: #2196f3;
+}
+
+.header-main {
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.third-header {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.post {
+  font-size: 14px;
+
+  color: #757575;
+}
+
+.second-header {
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
+}
+
+.profesion {
+  font-size: 16px;
+  color: #757575;
+}
+/*-----footer--*/
+.logo-font-dark {
+  color: #212121;
+}
+
+.address,
+.mail,
+.tel {
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.address:hover,
+.mail:hover,
+.tel:hover,
+.address:focus,
+.mail:focus,
+.tel:focus {
+  color: #2196f3;
+}
+
+/*---portfolio---*/
+
+.portfolio-button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .photo .title {
- 
   font-weight: 700;
   font-size: 18px;
   color: #212121;
-}
-.subtitle {
-  
-  font-size: 16px;
-
-  color: #757575;
 }

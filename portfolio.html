@@ -4,36 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
+      rel="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
       <nav>
-        <ul class="social-links">
+        <ul class="nav-list">
           <li>
-            <a class="link-logo" href="/WebStudio"
-              ><span class="dark-font">Web</span><span class="blue-font">Studio</span></a
+            <a class="logo" href="/WebStudio"
+              ><span class="logo-font-accent">Web</span
+              ><span class="logo-font-second">Studio</span></a
             >
           </li>
-          <li><a class="link" href="index.html">Agencja</a></li>
-          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="/kontakt">Kontakt</a></li>
+          <li class="nav-link"><a class="link" href="index.html">Agencja</a></li>
+          <li class="nav-link"><a class="link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-link"><a class="link" href="/kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="social-links contact">
-        <li><a class="link" href="/mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="/tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="contact-list">
+        <li calss="contact-link">
+          <a class="link-mail" href="/mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-link">
+          <a class="link-tel" href="/tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -134,22 +142,15 @@
       </element>
     </main>
     <footer>
-      <address class="rest">
-        <ul>
-          <a class="link-logo" href="/WebStudio"
-            ><span class="dark-font">Web</span><span class="blue-font">Studio</span></a
-          >
-          <address>
-            <ul class="adress">
-              m. Warszawa, Aleje Jerozolimskie 21
-            </ul>
-          </address>
-          <ul>
-            <a href="mailto:info@exaple.com">info@example.com</a>
-          </ul>
-          <ul>
-            <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
-          </ul>
+      <a class="logo" href="/WebStudio"
+        ><span class="logo-font-dark">Web</span><span class="logo-font-footer">Studio</span></a
+      >
+
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="address">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="mail" href="mailto:info@exaple.com">info@example.com</li>
+          <li class="tel" href="tel:+48111111111">+48 111 111 111</li>
         </ul>
       </address>
     </footer>
